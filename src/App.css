@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: rgb(222, 234, 234);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,12 +25,14 @@ body {
 }
 
 h1 {
+  color:green;
   letter-spacing: 1px;
   margin: 0;
   text-align: center;
 }
 
 h2 {
+  color:green;
   letter-spacing: 1px;
   margin: 0;
   text-align: center;
@@ -79,7 +81,7 @@ h4 {
 }
 
 .money.minus {
-  color: #2da3ad;
+  color: red;
   font-weight: bold;
 }
 
@@ -101,7 +103,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color:aqua;
+  background-color:lightseagreen;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
