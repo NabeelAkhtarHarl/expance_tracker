@@ -101,7 +101,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: lightsteelblue;
+  background-color:aqua;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
@@ -158,7 +158,7 @@ input[type='number'] {
 
 .delete-btn {
   cursor: pointer;
-  background-color: #8a6a66;
+  background-color: red;
   border: 0;
   color: #fff;
   font-size: 20px;
