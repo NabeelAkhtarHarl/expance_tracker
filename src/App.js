@@ -1,11 +1,17 @@
-import React from 'react';
- 
-import './App.css';
+ import React from 'react';
+ import './App.css';
+ import  { Header } from './components/Header';
+ import { Balance } from './components/Balance';
+ import { AccountSummary } from './components/AccountSummary';
 
 function App() {
   return (
-    <div className="App-header">
-      <h1>Helloworld</h1>
+    <div>
+      <Header/>
+      <div className="container">
+        <Balance/>
+        <AccountSummary/>
+      </div>
     </div>
   );
 }
